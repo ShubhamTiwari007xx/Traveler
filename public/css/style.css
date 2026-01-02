@@ -1,0 +1,125 @@
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+
+}
+
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar{
+    background-color: rgb(158, 186, 233);
+    height: 5rem;
+
+}
+
+.fas.fa-plane{
+    color: rgb(19, 19, 213);
+    font-size: 2rem;
+}
+
+.nav-link{
+   color: rgb(12, 3, 74) !important;
+}
+
+
+footer{
+    margin-top: 4rem;
+    height: 7rem;
+}
+.f-info-socials{
+    font-size: 1.2rem;
+
+}
+.f-info {
+    width: 100%;
+    text-align: center;  
+    background-color: rgb(158, 186, 233);
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+    
+}
+
+.card-img-top{
+    border-radius: 1rem;
+    width: 100!important;
+    object-fit: cover!important;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background: white;
+}
+
+
+.show-img{
+    height: 35vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left:0 ;
+    padding-right:0 ;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #a9c4ee;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px; /* THIS fixes Sign up / Log in spacing */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+#filters {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.filter:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.tax{
+    display: none;
+}
+
+.tax-toggle{
+    border: 1px solid black;
+    border-radius: 1rem;
+    height: 3.rem;
+    padding: 1rem;
+}
