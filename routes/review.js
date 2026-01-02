@@ -4,7 +4,7 @@ const wrapAsync = require("../utlis/wrapAsync.js");
 const ExpressError = require("../utlis/ExpressError.js");
 const Review = require ("../models/review.js");
 const Listing = require("../models/listing.js")
-const {validateReview, isLoggedIn, isAuthor, savedRedirectUrl} = require("../middleware.js")
+const {validateReview, isLoggedIn, isAuthor, savedRedirectUrl} = require("../authmiddleware.js")
 const reviewController = require("../Controller/review.js");
 
 //reviews route
