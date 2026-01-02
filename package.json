@@ -1,8 +1,7 @@
 {
   "engines": {
     "node": "20.18.0"
-  }
-  ,
+  },
   "name": "main-project",
   "version": "1.0.0",
   "main": "index.js",
@@ -16,7 +15,7 @@
   "dependencies": {
     "@googlemaps/google-maps-services-js": "^3.4.2",
     "axios": "^1.13.2",
-    "cloudinary": "^2.8.0",
+    "cloudinary": "^1.41.3",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^5.1.0",
     "cookie-parser": "^1.4.7",
